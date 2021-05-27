@@ -58,17 +58,17 @@ async function getBackgroundImg(){
     }else if(hour>=16&&hour<=18){
         bg = ("sunrise6.png");
     }else if(hour>=18&&hour<=20){
-        bg = ("sunrise7.png");
+        bg = ("sunset7.png");
     }else if(hour>=20&&hour<=22){
-        bg = ("sunrise8.png");
+        bg = ("sunset8.png");
     }else if(hour>=22&&hour==0){
-        bg = ("sunrise9.png");
+        bg = ("sunset9.png");
     }else if(hour==0&&hour<=02){
-        bg = ("sunrise10.png");
+        bg = ("sunset10.png");
     }else if(hour>=02&hour<=04){
-        bg = ("sunrise11.png");
+        bg = ("sunset11.png");
     }else {
-        bg = ("sunrise12.png");
+        bg = ("sunset12.png");
     }
     console.log(responseJSON);
     //load the image in backgroundImg variable here
